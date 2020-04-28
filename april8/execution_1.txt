@@ -1,0 +1,53 @@
+Run 1:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 1
+Enter data: 2
+Would you like to add another node? Print 0 for no 1
+Enter data: 4
+Would you like to add another node? Print 0 for no 5
+Enter data: 5
+Would you like to add another node? Print 0 for no 0
+
+1 2 4 5 
+
+Output:
+
+Enter data and the positon after which the data is to be inserted: 3 2
+
+1 2 3 4 5 
+
+Enter the position of the node whose succesive node gets deleted: 4
+
+1 2 3 4 
+
+Run 2:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 2
+Enter data: 2
+Would you like to add another node? Print 0 for no 32
+Enter data: 3
+Would you like to add another node? Print 0 for no 5
+Enter data: 5
+Would you like to add another node? Print 0 for no 6
+Enter data: 6
+Would you like to add another node? Print 0 for no 0
+
+1 2 3 5 6 
+
+Ouptut:
+
+Enter data and the positon after which the data is to be inserted: 4 3
+
+1 2 3 4 5 6 
+
+Enter the position of the node whose succesive node gets deleted: 6
+
+Last element, deletion of next element not possible
+
+1 2 3 4 5 6 

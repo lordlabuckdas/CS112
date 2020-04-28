@@ -1,0 +1,43 @@
+Run 1:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 2
+Enter data: 2
+Would you like to add another node? Print 0 for no 3
+Enter data: 3
+Would you like to add another node? Print 0 for no 4
+Enter data: 4
+Would you like to add another node? Print 0 for no 0
+
+1 2 3 4 
+
+Ouput:
+
+1 2 
+
+Run 2:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 1
+Enter data: 2
+Would you like to add another node? Print 0 for no 2
+Enter data: 3
+Would you like to add another node? Print 0 for no 3
+Enter data: 4
+Would you like to add another node? Print 0 for no 5
+Enter data: 5
+Would you like to add another node? Print 0 for no 6
+Enter data: 6
+Would you like to add another node? Print 0 for no 7
+Enter data: 7
+Would you like to add another node? Print 0 for no 0
+
+1 2 3 4 5 6 7 
+
+Ouput:
+
+1 2 3 4 7 
