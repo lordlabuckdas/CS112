@@ -1,0 +1,40 @@
+Run 1:
+
+Input:
+
+Enter the number of names: 5    
+Enter name: anmol
+Enter name: ritvik  
+Enter name: rajesh
+Enter name: dhoni
+Enter name: krishna
+
+Output:
+
+anmol
+dhoni
+krishna
+rajesh
+ritvik
+
+Run 2:
+
+Input:
+
+Enter the number of names: 6
+Enter name: ludwig beethoven
+Enter name: wolfgang mozart
+Enter name: ms dhoni
+Enter name: krish na
+Enter name: payanta saul
+Enter name: walter white
+
+Output:
+
+krish na
+ludwig beethoven
+ms dhoni
+payanta saul
+walter white
+wolfgang mozart
+

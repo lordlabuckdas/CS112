@@ -1,0 +1,103 @@
+Run 1:
+
+Input:
+
+Enter name: krish na    
+Enter roll num: 1901ee50
+Enter grade: f
+Enter CPI: 6.9
+Would you like to add another node? (0 to stop) 1
+
+Enter name: ludwig beethoven
+Enter roll num: 1901me44
+Enter grade: aa
+Enter CPI: 10
+Would you like to add another node? (0 to stop) 0
+
+Name: krish na
+Roll num: 1901ee50
+Grade: f
+CPI: 6.900000
+
+Name: ludwig beethoven
+Roll num: 1901me44
+Grade: aa
+CPI: 10.000000
+
+Output:
+
+MENU
+1.Deletion
+2.Insertion
+3.Number of students
+4.Reverse order
+5.Exit
+Enter choice: 1
+
+Enter the name of the student to be deleted: ludwig beethoven
+Enter roll number of the student to be deleted: 1901me44
+
+Name: krish na
+Roll num: 1901ee50
+Grade: f
+CPI: 6.900000
+
+MENU
+1.Deletion
+2.Insertion
+3.Number of students
+4.Reverse order
+5.Exit
+Enter choice: 2
+
+Enter name: ms dhoni
+Enter roll num: 1901ce77
+Enter grade: s
+Enter CPI: 7.77
+
+Name: krish na
+Roll num: 1901ee50
+Grade: f
+CPI: 6.900000
+
+Name: ms dhoni
+Roll num: 1901ce77
+Grade: s
+CPI: 7.770000
+
+MENU
+1.Deletion
+2.Insertion
+3.Number of students
+4.Reverse order
+5.Exit
+Enter choice: 3
+
+There are 2 students
+MENU
+1.Deletion
+2.Insertion
+3.Number of students
+4.Reverse order
+5.Exit
+Enter choice: 4
+
+Name: ms dhoni
+Roll num: 1901ce77
+Grade: s
+CPI: 7.770000
+
+Name: krish na
+Roll num: 1901ee50
+Grade: f
+CPI: 6.900000
+
+MENU
+1.Deletion
+2.Insertion
+3.Number of students
+4.Reverse order
+5.Exit
+Enter choice: 5
+Exiting..
+
