@@ -1,0 +1,30 @@
+Run 1:
+
+Input:
+
+Enter the number of strings in set A and B respectively: 1 1
+Enter the strings of set A:
+abcdefghi
+Enter the strings of set B:
+jklmnopqrstuvwxyz
+
+Output:
+
+1 pair(s) has/have all the characters
+
+Run 2:
+
+Input:
+
+Enter the number of strings in set A and B respectively: 2 2
+Enter the strings of set A:
+abcdefghijk
+abcdefghij        
+Enter the strings of set B:
+lmnopqrstuvwxyz
+klmnopqrstuvwxyz
+
+Output:
+
+3 pair(s) has/have all the characters
+

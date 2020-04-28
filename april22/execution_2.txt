@@ -1,0 +1,91 @@
+Run 1:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 1
+Enter data: 2
+Would you like to add another node? Print 0 for no 2
+Enter data: 3
+Would you like to add another node? Print 0 for no 3
+Enter data: 4
+Would you like to add another node? Print 0 for no 4
+Enter data: 5
+Would you like to add another node? Print 0 for no 5
+Enter data: 6
+Would you like to add another node? Print 0 for no 6
+Enter data: 7
+Would you like to add another node? Print 0 for no 7
+Enter data: 8
+Would you like to add another node? Print 0 for no 0
+
+1 2 3 4 5 6 7 8 
+
+Ouput:
+
+Enter k where the kth node from beginning and last will be swapped: 3
+
+1 2 6 4 5 3 7 8 
+
+Enter m where the linked list will be rotated by m: 2
+
+7 8 1 2 6 4 5 3 
+
+Run 2:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 1
+Enter data: 2
+Would you like to add another node? Print 0 for no 2
+Enter data: 3
+Would you like to add another node? Print 0 for no 3
+Enter data: 4
+Would you like to add another node? Print 0 for no 4
+Enter data: 5
+Would you like to add another node? Print 0 for no 0
+
+1 2 3 4 5 
+
+Output:
+
+Enter k where the kth node from beginning and last will be swapped: 1
+
+5 2 3 4 1 
+
+Enter m where the linked list will be rotated by m: 4
+
+2 3 4 1 5 
+
+Run 3:
+
+Input:
+
+Enter data: 1
+Would you like to add another node? Print 0 for no 1
+Enter data: 2
+Would you like to add another node? Print 0 for no 2
+Enter data: 3
+Would you like to add another node? Print 0 for no 3
+Enter data: 4
+Would you like to add another node? Print 0 for no 4
+Enter data: 5
+Would you like to add another node? Print 0 for no 5
+Enter data: 6
+Would you like to add another node? Print 0 for no 6
+Enter data: 7
+Would you like to add another node? Print 0 for no 0
+
+1 2 3 4 5 6 7 
+
+Output:
+
+Enter k where the kth node from beginning and last will be swapped: 9
+k is inappropriate
+1 2 3 4 5 6 7 
+
+Enter m where the linked list will be rotated by m: 10
+
+5 6 7 1 2 3 4 
+

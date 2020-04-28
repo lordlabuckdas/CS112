@@ -1,0 +1,52 @@
+Run 1:
+
+Input:
+
+Enter the dimensions of the array: 2 2
+Enter the elements: 1 2 3 4
+
+Output:
+
+Row Major w/ address:
+1 0x7ffee8e52e10
+2 0x7ffee8e52e14
+3 0x7ffee8e52e38
+4 0x7ffee8e52e3c
+
+Column Major w/ address:
+1 0x7ffee8e52e10
+3 0x7ffee8e52e38
+2 0x7ffee8e52e14
+4 0x7ffee8e52e3c
+
+Run 2:
+
+Input:
+
+Enter the dimensions of the array: 3 3
+Enter the elements: 1 2 3 4 5 6 7 8 9
+
+Output:
+
+Row Major w/ address:
+1 0x7ffe0ea26c30
+2 0x7ffe0ea26c34
+3 0x7ffe0ea26c38
+4 0x7ffe0ea26c58
+5 0x7ffe0ea26c5c
+6 0x7ffe0ea26c60
+7 0x7ffe0ea26c80
+8 0x7ffe0ea26c84
+9 0x7ffe0ea26c88
+
+Column Major w/ address:
+1 0x7ffe0ea26c30
+4 0x7ffe0ea26c58
+7 0x7ffe0ea26c80
+2 0x7ffe0ea26c34
+5 0x7ffe0ea26c5c
+8 0x7ffe0ea26c84
+3 0x7ffe0ea26c38
+6 0x7ffe0ea26c60
+9 0x7ffe0ea26c88
+
