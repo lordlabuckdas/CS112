@@ -1,0 +1,54 @@
+	**Menu**
+1. Push
+2. Pop
+3. Isempty
+4. Peek
+5. Display
+6. Quit
+
+Enter choice: 1
+
+Push: 5
+
+Enter choice: 1
+
+Push: 6
+
+Enter choice: 1
+
+Push: 7
+
+Enter choice: 5
+
+7 6 5 
+
+Enter choice: 4
+
+Top element is: 7
+
+Enter choice: 3
+
+Queue is not empty!
+
+Enter choice: 2
+
+Pop: 7
+
+Enter choice: 2
+
+Pop: 6
+
+Enter choice: 2
+
+Pop: 5
+
+Enter choice: 2
+
+Cannot pop, stack is empty!
+
+Enter choice: 3
+
+Queue is empty!
+
+Enter choice: 6
+

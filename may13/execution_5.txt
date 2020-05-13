@@ -1,0 +1,17 @@
+$ ./output_5.out 
+
+Enter the path of the directory: /
+
+13 May 2020
+
+bin   cdrom  etc   lib	  lib64   lost+found  mnt  proc  run   snap  swapfile  tmp  var
+boot  dev    home  lib32  libx32  media       opt  root  sbin  srv   sys       usr  VBox.log
+
+$ ./output_5.out
+
+Enter the path of the directory: /usr
+
+13 May 2020
+
+bin  games  include  lib  lib32  lib64	libexec  libx32  local	sbin  share  src
+

@@ -1,0 +1,54 @@
+	**Menu**
+1. Enqueue
+2. Dequeue
+3. Isempty
+4. Isfull
+5. Display
+6. Quit
+
+Enter choice: 1
+
+Enqueue: 2
+
+Enter choice: 1
+
+Enqueue: 3
+
+Enter choice: 1
+
+Enqueue: 4
+
+Enter choice: 5
+
+Circular Queue elements are: 2 3 4 
+
+Enter choice: 3
+
+Queue is not empty!
+
+Enter choice: 4
+
+Queue is not full!
+
+Enter choice: 2
+
+Dequeued: 2
+
+Enter choice: 2
+
+Dequeued: 3
+
+Enter choice: 2
+
+Dequeued: 4
+
+Enter choice: 2
+
+Cannot dequeue elements, circular queue is empty!
+
+Enter choice: 5
+
+Circular Queue is empty
+
+Enter choice: 6
+

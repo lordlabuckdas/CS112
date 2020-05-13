@@ -1,0 +1,12 @@
+$ ./output_4.out 
+
+One argument expected
+
+$ ./output_4.out pink
+
+The argument supplied is pink
+
+$ ./output_4.out pink floyd
+
+Too many arguments are supplied
+
