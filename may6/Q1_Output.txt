@@ -1,0 +1,23 @@
+Run 1:
+
+Input filename: Q1_input1.txt
+
+Output:
+
+No. of upper cases: 3
+No. of lower cases: 24
+No. of lines: 4
+No. of spaces: 4
+No. of tabs: 1
+
+Run 2:
+
+Input filename: Q1_input2.txt
+
+Output:
+
+No. of upper cases: 2
+No. of lower cases: 34
+No. of lines: 4
+No. of spaces: 7
+No. of tabs: 4
