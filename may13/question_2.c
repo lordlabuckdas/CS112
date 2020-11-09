@@ -1,8 +1,10 @@
+//implement circular queue using array
+
 #include<stdio.h>
 
-int cqueue[50], front=-1, rear=-1;
+int cqueue[50], front=-1, rear=-1; //declaring circular queue and reqd variables
 
-int isfull()
+int isfull() //to check if cqueue is full
 {
     if((front==rear+1)||(front==0&&rear==49))
         return 1;
@@ -10,7 +12,7 @@ int isfull()
         return 0;
 }
 
-int isempty()
+int isempty() //to check if cqueue is empty
 {
     if(front==-1)
         return 1;
@@ -18,7 +20,7 @@ int isempty()
         return 0;
 }
 
-void enqueue()
+void enqueue() //to add elements to cqueue
 {
     if(isfull())
     {
@@ -42,7 +44,7 @@ void enqueue()
     cqueue[rear]=data;
 }
 
-void dequeue()
+void dequeue() //to delete elements from cqueue
 {
     if(isempty())
     {
@@ -59,7 +61,7 @@ void dequeue()
         front++;
 }
 
-void display()
+void display() //to display cqueue
 {
     int i;
     if(isempty())
@@ -70,7 +72,7 @@ void display()
     printf("\nCircular Queue elements are: ");
     if(front>=rear)
     {
-        for(i=front;i<=49;i++)
+        for(i=front;i<=49;i++) //print till end, then from start to rear
             printf("%d ",cqueue[i]);
         for(i=0;i<=rear;i++)
             printf("%d ",cqueue[i]);
@@ -85,10 +87,10 @@ void display()
 
 int main()
 {
-    int ch;
-    printf("\n\t**Menu**\n1. Enqueue\n2. Dequeue\n3. Isempty\n4. Isfull\n5. Display\n6. Quit\n\nEnter choice: ");
+    int ch; //choice variable
+    printf("\n\t**Menu**\n1. Enqueue\n2. Dequeue\n3. Isempty\n4. Isfull\n5. Display\n6. Quit\n\nEnter choice: "); //menu
     scanf("%d",&ch);
-    while(1)
+    while(1) //inf loop till user exit
     {
         switch(ch)
         {

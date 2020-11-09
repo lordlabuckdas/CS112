@@ -1,8 +1,10 @@
+//implement stack using array
+
 #include<stdio.h>
 
-int stack[50], top=-1;
+int stack[50], top=-1; //declaring stack and reqd variables
 
-int isempty()
+int isempty() //to check if stack is empty
 {
     if(top==-1)
         return 1;
@@ -10,7 +12,7 @@ int isempty()
         return 0;
 }
 
-void push()
+void push() //to add elements to stack 
 {
     if(top==49)
     {
@@ -23,7 +25,7 @@ void push()
     stack[++top]=data;
 }
 
-void pop()
+void pop() //to delete elements from stack
 {
     if(isempty())
     {
@@ -33,7 +35,7 @@ void pop()
     printf("\nPop: %d\n",stack[top--]);
 }
 
-void peek()
+void peek() //to print the top element
 {
     if(isempty())
     {
@@ -43,7 +45,7 @@ void peek()
     printf("\nTop element is: %d\n",stack[top]);
 }
 
-void display()
+void display() //to display stack
 {
     printf("\n");
     if(isempty())
@@ -62,10 +64,10 @@ void display()
 
 int main()
 {
-    int ch;
-    printf("\n\t**Menu**\n1. Push\n2. Pop\n3. Isempty\n4. Peek\n5. Display\n6. Quit\n\nEnter choice: ");
+    int ch; //choice variable
+    printf("\n\t**Menu**\n1. Push\n2. Pop\n3. Isempty\n4. Peek\n5. Display\n6. Quit\n\nEnter choice: "); //menu
     scanf("%d",&ch);
-    while(1)
+    while(1) //inf loop till user exit
     {
         switch(ch)
         {

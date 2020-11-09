@@ -1,8 +1,10 @@
+//program to implement queue using array
+
 #include<stdio.h>
 
-int queue[50],rear=-1,front=-1;
+int queue[50],rear=-1,front=-1; //declaring queue and reqd variables
 
-int isempty()
+int isempty() //to check if queue is empty
 {
     if(front==rear&&front==-1)
     {
@@ -12,7 +14,7 @@ int isempty()
         return 0;
 }
 
-int isfull()
+int isfull() //to check if queue is full
 {
     if(rear==49)
         return 1;
@@ -20,7 +22,7 @@ int isfull()
         return 0;
 }
 
-void display()
+void display() //to display queue
 {
     printf("\nQueue elements are: ");
     if(isempty())
@@ -34,7 +36,7 @@ void display()
     printf("\n");
 }
 
-void enqueue()
+void enqueue() //to add elements to queue
 {
     if(isfull())
     {
@@ -50,7 +52,7 @@ void enqueue()
     queue[rear]=data;
 }
 
-void dequeue()
+void dequeue() //to delete elements from queue
 {
     if(isempty())
     {
@@ -67,12 +69,12 @@ void dequeue()
 
 }
 
-int main()
+int main() 
 {
-    int ch;
-    printf("\n\t**Menu**\n1. Enqueue\n2. Dequeue\n3. Isempty\n4. Isfull\n5. Display\n6. Quit\n\nEnter choice: ");
+    int ch; //choice variable
+    printf("\n\t**Menu**\n1. Enqueue\n2. Dequeue\n3. Isempty\n4. Isfull\n5. Display\n6. Quit\n\nEnter choice: "); //menu display
     scanf("%d",&ch);
-    while(1)
+    while(1) //inf loop till user wants to exit
     {
         switch(ch)
         {
